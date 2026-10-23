@@ -9,10 +9,9 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 
 ## Algorithm
 1. Read n, matrix A, and vector B; initialize solution vector X.
-2.  Read n, matrix A, and vector B; initialize solution vector X.
-3. Read n, matrix A, and vector B; initialize solution vector X. 
-4. Read n, matrix A, and vector B; initialize solution vector X.
-
+2. Convert A to upper triangular form using forward elimination.
+3. Compute unknowns using back substitution.
+4. Print the solution vector X.
 ## Program:
 <img width="782" height="692" alt="image" src="https://github.com/user-attachments/assets/81220c2e-6fb3-4b8d-a442-6ebb60e1f671" />
 <img width="978" height="515" alt="image" src="https://github.com/user-attachments/assets/c5ceae1b-190b-4688-b6db-775b8b39ab27" />
